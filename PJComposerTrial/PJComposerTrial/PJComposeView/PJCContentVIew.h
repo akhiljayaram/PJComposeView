@@ -39,9 +39,11 @@
 @interface PJCContentVIew : UIView <UITextViewDelegate>
 @property (strong, nonatomic) UIView *headerContainerView;
 @property (strong, nonatomic) UIView *footerContainerView;
+
 @property (strong, nonatomic) UIView *textViewContainerView;
 @property (strong, nonatomic) UITextView *mainTextView;
 @property (strong, nonatomic) UILabel *placeholderLabel;
+@property (strong, nonatomic) NSString *placeholderLabelText;
 
 @property (assign, nonatomic) id<PJCComposeTextDelegate> delegate;
 @property (assign, nonatomic) id<PJCComposeDelegate> composeDelegate;
@@ -49,4 +51,7 @@
 - (void)addHeaderView:(UIView *)headerView;
 - (void)addFooterView:(UIView *)footerView;
 - (void)addComposingView:(UIView *)composingView;
+
+- (void) setUpSubViews;
+
 @end

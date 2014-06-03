@@ -14,8 +14,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
         self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
     [self setRootViewController];
+    [self.window makeKeyAndVisible];
 
     return YES;
 }
@@ -25,9 +25,11 @@
 {
     
   
-    PJComposeTrialViewController *composeVC = [[PJComposeTrialViewController alloc] initWithNibName:@"PJComposeTrialViewController" bundle:nil];
+    self.composeVC = [[PJComposeTrialViewController alloc] initWithNibName:@"PJComposeTrialViewController" bundle:nil];
 
-    self.navigationController = [[UINavigationController alloc] initWithRootViewController:composeVC];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.composeVC];
+    self.window.rootViewController =nil;
+
        self.window.rootViewController =  self.navigationController ;
     
 }

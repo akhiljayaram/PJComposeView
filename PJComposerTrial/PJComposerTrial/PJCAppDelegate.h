@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "PJComposeTrialViewController.h"
 @interface PJCAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) UINavigationController *navigationController;
+@property (strong, nonatomic) PJComposeTrialViewController *composeVC;
 
 @end

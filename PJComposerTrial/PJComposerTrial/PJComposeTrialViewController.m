@@ -38,12 +38,13 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    self.automaticallyAdjustsScrollViewInsets = NO;
+
     
 }
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    [self.composeView setUpSubViews];
     self.composeView.composeDelegate = self;
     [self.composeView addHeaderView:self.headerView];
     [self.composeView addFooterView:self.footerView];

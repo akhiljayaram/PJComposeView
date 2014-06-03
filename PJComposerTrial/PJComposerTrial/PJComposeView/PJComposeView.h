@@ -14,22 +14,22 @@
 @property (assign, nonatomic) id<PJCComposeDelegate> composeDelegate;
 
 @property(nonatomic,copy) NSString *text;
-@property(nonatomic,retain) UIFont *font;
-@property(nonatomic,retain) UIColor *textColor;
-@property (strong, nonatomic) UIColor *backgroundColor;
+@property(nonatomic,retain) UIFont *composeFont;
+@property(nonatomic,retain) UIColor *composeTextColor;
+@property (strong, nonatomic) UIColor *composeBackgroundColor;
 
-@property(nonatomic) NSTextAlignment textAlignment;  
-@property(nonatomic) NSRange selectedRange;
+@property(nonatomic) NSTextAlignment composeTextAlignment;
+@property(nonatomic) NSRange composeSelectedRange;
 
-@property (readwrite, retain) UIView *inputView;
-@property (readwrite, retain) UIView *inputAccessoryView;
+@property (nonatomic, retain) UIView *composeInputView;
+@property (nonatomic, retain) UIView *composeInputAccessoryView;
+@property (nonatomic, retain) NSString *placeHolderText;
 
 - (void) setUpSubViews;
 - (UITextView *) getComposeTextView;
 - (void)addHeaderView:(UIView *)headerView;
 - (void)addFooterView:(UIView *)footerView;
 - (void)addComposingView:(UIView *)composingView;
-
 - (void)resignFirstResponder;
 @end
 

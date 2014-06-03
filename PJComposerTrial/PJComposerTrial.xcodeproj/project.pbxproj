@@ -170,12 +170,12 @@
 		CEE16A93193DFC8A00A83D6F /* PJComposeView */ = {
 			isa = PBXGroup;
 			children = (
-				CEE16A94193DFC8A00A83D6F /* PJCContentVIew.h */,
-				CEE16A95193DFC8A00A83D6F /* PJCContentVIew.m */,
 				CEE16A96193DFC8A00A83D6F /* PJComposeView.h */,
 				CEE16A97193DFC8A00A83D6F /* PJComposeView.m */,
 				CEE16A98193DFC8A00A83D6F /* PJCScrollView.h */,
 				CEE16A99193DFC8A00A83D6F /* PJCScrollView.m */,
+				CEE16A94193DFC8A00A83D6F /* PJCContentVIew.h */,
+				CEE16A95193DFC8A00A83D6F /* PJCContentVIew.m */,
 			);
 			path = PJComposeView;
 			sourceTree = "<group>";
