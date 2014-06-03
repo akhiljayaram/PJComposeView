@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC17B25193309F6001B9F9A /* PJCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC17B24193309F6001B9F9A /* PJCScrollView.m */; };
+		CEC17B2819330B10001B9F9A /* PJCContentVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC17B2719330B10001B9F9A /* PJCContentVIew.m */; };
+		CEC17B2C19332201001B9F9A /* PJCViewControllerttttt.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC17B2B19332201001B9F9A /* PJCViewControllerttttt.m */; };
+		CEC1E7BE192B984400D5CC94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1E7BD192B984400D5CC94 /* Foundation.framework */; };
+		CEC1E7C0192B984400D5CC94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1E7BF192B984400D5CC94 /* CoreGraphics.framework */; };
+		CEC1E7C2192B984400D5CC94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1E7C1192B984400D5CC94 /* UIKit.framework */; };
+		CEC1E7C8192B984400D5CC94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC1E7C6192B984400D5CC94 /* InfoPlist.strings */; };
+		CEC1E7CA192B984400D5CC94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1E7C9192B984400D5CC94 /* main.m */; };
+		CEC1E7CE192B984400D5CC94 /* PJCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1E7CD192B984400D5CC94 /* PJCAppDelegate.m */; };
+		CEC1E7D0192B984400D5CC94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC1E7CF192B984400D5CC94 /* Images.xcassets */; };
+		CEC1E7D7192B984400D5CC94 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1E7D6192B984400D5CC94 /* XCTest.framework */; };
+		CEC1E7D8192B984400D5CC94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1E7BD192B984400D5CC94 /* Foundation.framework */; };
+		CEC1E7D9192B984400D5CC94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1E7C1192B984400D5CC94 /* UIKit.framework */; };
+		CEC1E7E1192B984400D5CC94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC1E7DF192B984400D5CC94 /* InfoPlist.strings */; };
+		CEC1E7E3192B984400D5CC94 /* PJComposerTrialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1E7E2192B984400D5CC94 /* PJComposerTrialTests.m */; };
+		CEC1E7EF192B9A8200D5CC94 /* PJComposeTrialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1E7ED192B9A8200D5CC94 /* PJComposeTrialViewController.m */; };
+		CEC1E7F0192B9A8200D5CC94 /* PJComposeTrialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC1E7EE192B9A8200D5CC94 /* PJComposeTrialViewController.xib */; };
+		CEC1E7F3192B9AD200D5CC94 /* PJCComposeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1E7F2192B9AD200D5CC94 /* PJCComposeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC1E7DA192B984400D5CC94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC1E7B2192B984400D5CC94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC1E7B9192B984400D5CC94;
+			remoteInfo = PJComposerTrial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEC17B23193309F6001B9F9A /* PJCScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJCScrollView.h; sourceTree = "<group>"; };
+		CEC17B24193309F6001B9F9A /* PJCScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJCScrollView.m; sourceTree = "<group>"; };
+		CEC17B2619330B10001B9F9A /* PJCContentVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJCContentVIew.h; sourceTree = "<group>"; };
+		CEC17B2719330B10001B9F9A /* PJCContentVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJCContentVIew.m; sourceTree = "<group>"; };
+		CEC17B2A19332201001B9F9A /* PJCViewControllerttttt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJCViewControllerttttt.h; sourceTree = "<group>"; };
+		CEC17B2B19332201001B9F9A /* PJCViewControllerttttt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJCViewControllerttttt.m; sourceTree = "<group>"; };
+		CEC1E7BA192B984400D5CC94 /* PJComposerTrial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJComposerTrial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC1E7BD192B984400D5CC94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEC1E7BF192B984400D5CC94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEC1E7C1192B984400D5CC94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEC1E7C5192B984400D5CC94 /* PJComposerTrial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PJComposerTrial-Info.plist"; sourceTree = "<group>"; };
+		CEC1E7C7192B984400D5CC94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC1E7C9192B984400D5CC94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC1E7CB192B984400D5CC94 /* PJComposerTrial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PJComposerTrial-Prefix.pch"; sourceTree = "<group>"; };
+		CEC1E7CC192B984400D5CC94 /* PJCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJCAppDelegate.h; sourceTree = "<group>"; };
+		CEC1E7CD192B984400D5CC94 /* PJCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJCAppDelegate.m; sourceTree = "<group>"; };
+		CEC1E7CF192B984400D5CC94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEC1E7D5192B984400D5CC94 /* PJComposerTrialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJComposerTrialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC1E7D6192B984400D5CC94 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CEC1E7DE192B984400D5CC94 /* PJComposerTrialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PJComposerTrialTests-Info.plist"; sourceTree = "<group>"; };
+		CEC1E7E0192B984400D5CC94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC1E7E2192B984400D5CC94 /* PJComposerTrialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJComposerTrialTests.m; sourceTree = "<group>"; };
+		CEC1E7EC192B9A8200D5CC94 /* PJComposeTrialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJComposeTrialViewController.h; sourceTree = "<group>"; };
+		CEC1E7ED192B9A8200D5CC94 /* PJComposeTrialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJComposeTrialViewController.m; sourceTree = "<group>"; };
+		CEC1E7EE192B9A8200D5CC94 /* PJComposeTrialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PJComposeTrialViewController.xib; sourceTree = "<group>"; };
+		CEC1E7F1192B9AD200D5CC94 /* PJCComposeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJCComposeView.h; sourceTree = "<group>"; };
+		CEC1E7F2192B9AD200D5CC94 /* PJCComposeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJCComposeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC1E7B7192B984400D5CC94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1E7C0192B984400D5CC94 /* CoreGraphics.framework in Frameworks */,
+				CEC1E7C2192B984400D5CC94 /* UIKit.framework in Frameworks */,
+				CEC1E7BE192B984400D5CC94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC1E7D2192B984400D5CC94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1E7D7192B984400D5CC94 /* XCTest.framework in Frameworks */,
+				CEC1E7D9192B984400D5CC94 /* UIKit.framework in Frameworks */,
+				CEC1E7D8192B984400D5CC94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC1E7B1192B984400D5CC94 = {
+			isa = PBXGroup;
+			children = (
+				CEC1E7C3192B984400D5CC94 /* PJComposerTrial */,
+				CEC1E7DC192B984400D5CC94 /* PJComposerTrialTests */,
+				CEC1E7BC192B984400D5CC94 /* Frameworks */,
+				CEC1E7BB192B984400D5CC94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC1E7BB192B984400D5CC94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1E7BA192B984400D5CC94 /* PJComposerTrial.app */,
+				CEC1E7D5192B984400D5CC94 /* PJComposerTrialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC1E7BC192B984400D5CC94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1E7BD192B984400D5CC94 /* Foundation.framework */,
+				CEC1E7BF192B984400D5CC94 /* CoreGraphics.framework */,
+				CEC1E7C1192B984400D5CC94 /* UIKit.framework */,
+				CEC1E7D6192B984400D5CC94 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC1E7C3192B984400D5CC94 /* PJComposerTrial */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1E7CC192B984400D5CC94 /* PJCAppDelegate.h */,
+				CEC1E7CD192B984400D5CC94 /* PJCAppDelegate.m */,
+				CEC1E7CF192B984400D5CC94 /* Images.xcassets */,
+				CEC1E7C4192B984400D5CC94 /* Supporting Files */,
+				CEC1E7EC192B9A8200D5CC94 /* PJComposeTrialViewController.h */,
+				CEC1E7ED192B9A8200D5CC94 /* PJComposeTrialViewController.m */,
+				CEC1E7EE192B9A8200D5CC94 /* PJComposeTrialViewController.xib */,
+				CEC1E7F1192B9AD200D5CC94 /* PJCComposeView.h */,
+				CEC1E7F2192B9AD200D5CC94 /* PJCComposeView.m */,
+				CEC17B23193309F6001B9F9A /* PJCScrollView.h */,
+				CEC17B24193309F6001B9F9A /* PJCScrollView.m */,
+				CEC17B2619330B10001B9F9A /* PJCContentVIew.h */,
+				CEC17B2719330B10001B9F9A /* PJCContentVIew.m */,
+			);
+			path = PJComposerTrial;
+			sourceTree = "<group>";
+		};
+		CEC1E7C4192B984400D5CC94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1E7C5192B984400D5CC94 /* PJComposerTrial-Info.plist */,
+				CEC1E7C6192B984400D5CC94 /* InfoPlist.strings */,
+				CEC1E7C9192B984400D5CC94 /* main.m */,
+				CEC1E7CB192B984400D5CC94 /* PJComposerTrial-Prefix.pch */,
+				CEC17B2A19332201001B9F9A /* PJCViewControllerttttt.h */,
+				CEC17B2B19332201001B9F9A /* PJCViewControllerttttt.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC1E7DC192B984400D5CC94 /* PJComposerTrialTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1E7E2192B984400D5CC94 /* PJComposerTrialTests.m */,
+				CEC1E7DD192B984400D5CC94 /* Supporting Files */,
+			);
+			path = PJComposerTrialTests;
+			sourceTree = "<group>";
+		};
+		CEC1E7DD192B984400D5CC94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1E7DE192B984400D5CC94 /* PJComposerTrialTests-Info.plist */,
+				CEC1E7DF192B984400D5CC94 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC1E7B9192B984400D5CC94 /* PJComposerTrial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC1E7E6192B984400D5CC94 /* Build configuration list for PBXNativeTarget "PJComposerTrial" */;
+			buildPhases = (
+				CEC1E7B6192B984400D5CC94 /* Sources */,
+				CEC1E7B7192B984400D5CC94 /* Frameworks */,
+				CEC1E7B8192B984400D5CC94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PJComposerTrial;
+			productName = PJComposerTrial;
+			productReference = CEC1E7BA192B984400D5CC94 /* PJComposerTrial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC1E7D4192B984400D5CC94 /* PJComposerTrialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC1E7E9192B984400D5CC94 /* Build configuration list for PBXNativeTarget "PJComposerTrialTests" */;
+			buildPhases = (
+				CEC1E7D1192B984400D5CC94 /* Sources */,
+				CEC1E7D2192B984400D5CC94 /* Frameworks */,
+				CEC1E7D3192B984400D5CC94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC1E7DB192B984400D5CC94 /* PBXTargetDependency */,
+			);
+			name = PJComposerTrialTests;
+			productName = PJComposerTrialTests;
+			productReference = CEC1E7D5192B984400D5CC94 /* PJComposerTrialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC1E7B2192B984400D5CC94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PJC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = akhiljayaram;
+				TargetAttributes = {
+					CEC1E7D4192B984400D5CC94 = {
+						TestTargetID = CEC1E7B9192B984400D5CC94;
+					};
+				};
+			};
+			buildConfigurationList = CEC1E7B5192B984400D5CC94 /* Build configuration list for PBXProject "PJComposerTrial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC1E7B1192B984400D5CC94;
+			productRefGroup = CEC1E7BB192B984400D5CC94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC1E7B9192B984400D5CC94 /* PJComposerTrial */,
+				CEC1E7D4192B984400D5CC94 /* PJComposerTrialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC1E7B8192B984400D5CC94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1E7F0192B9A8200D5CC94 /* PJComposeTrialViewController.xib in Resources */,
+				CEC1E7C8192B984400D5CC94 /* InfoPlist.strings in Resources */,
+				CEC1E7D0192B984400D5CC94 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC1E7D3192B984400D5CC94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1E7E1192B984400D5CC94 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC1E7B6192B984400D5CC94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1E7CE192B984400D5CC94 /* PJCAppDelegate.m in Sources */,
+				CEC1E7F3192B9AD200D5CC94 /* PJCComposeView.m in Sources */,
+				CEC17B2C19332201001B9F9A /* PJCViewControllerttttt.m in Sources */,
+				CEC1E7CA192B984400D5CC94 /* main.m in Sources */,
+				CEC1E7EF192B9A8200D5CC94 /* PJComposeTrialViewController.m in Sources */,
+				CEC17B2819330B10001B9F9A /* PJCContentVIew.m in Sources */,
+				CEC17B25193309F6001B9F9A /* PJCScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC1E7D1192B984400D5CC94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1E7E3192B984400D5CC94 /* PJComposerTrialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC1E7DB192B984400D5CC94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC1E7B9192B984400D5CC94 /* PJComposerTrial */;
+			targetProxy = CEC1E7DA192B984400D5CC94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC1E7C6192B984400D5CC94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC1E7C7192B984400D5CC94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEC1E7DF192B984400D5CC94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC1E7E0192B984400D5CC94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC1E7E4192B984400D5CC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC1E7E5192B984400D5CC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC1E7E7192B984400D5CC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PJComposerTrial/PJComposerTrial-Prefix.pch";
+				INFOPLIST_FILE = "PJComposerTrial/PJComposerTrial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEC1E7E8192B984400D5CC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PJComposerTrial/PJComposerTrial-Prefix.pch";
+				INFOPLIST_FILE = "PJComposerTrial/PJComposerTrial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEC1E7EA192B984400D5CC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PJComposerTrial.app/PJComposerTrial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PJComposerTrial/PJComposerTrial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PJComposerTrialTests/PJComposerTrialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CEC1E7EB192B984400D5CC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PJComposerTrial.app/PJComposerTrial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PJComposerTrial/PJComposerTrial-Prefix.pch";
+				INFOPLIST_FILE = "PJComposerTrialTests/PJComposerTrialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC1E7B5192B984400D5CC94 /* Build configuration list for PBXProject "PJComposerTrial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC1E7E4192B984400D5CC94 /* Debug */,
+				CEC1E7E5192B984400D5CC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC1E7E6192B984400D5CC94 /* Build configuration list for PBXNativeTarget "PJComposerTrial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC1E7E7192B984400D5CC94 /* Debug */,
+				CEC1E7E8192B984400D5CC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC1E7E9192B984400D5CC94 /* Build configuration list for PBXNativeTarget "PJComposerTrialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC1E7EA192B984400D5CC94 /* Debug */,
+				CEC1E7EB192B984400D5CC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC1E7B2192B984400D5CC94 /* Project object */;
+}
