@@ -15,6 +15,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self setUpSubViews];
+
     }
     return self;
 }
@@ -27,12 +28,12 @@
     CGRect frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
 
     self.mainContainerView = [[PJCContentVIew alloc]initWithFrame:frame];
-
     self.mainContainerView.delegate = self;
     self.mainContainerView.composeDelegate = self.composeDelegate;
 
     [self addSubview:self.mainContainerView];
     self.mainContainerView.frame = frame;
+    
 
 }
 - (void)updatedScrollContainerFrame

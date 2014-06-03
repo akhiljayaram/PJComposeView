@@ -14,11 +14,13 @@
     CGFloat keyBoardHeight;
     
     PJCScrollView *mainScrollView;
+    
 }
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
+        [self setUpSubViews];
 
     }
     return self;
@@ -26,6 +28,7 @@
 - (id) initWithCoder:(NSCoder*)aDecoder
 {
     if ((self = [super initWithCoder:aDecoder])){
+        [self setUpSubViews];
     }
     return self;
 }
@@ -34,9 +37,11 @@
 
 - (void) setUpSubViews
 {
+  
     CGRect frame = self.frame;
     frame.origin = CGPointMake(0, 0);
     mainScrollView = [[PJCScrollView alloc]initWithFrame:frame];
+
     mainScrollView.composeDelegate = self.composeDelegate;
     [self addSubview:mainScrollView];
     [self registerForKeyboardNotifications];
@@ -144,44 +149,54 @@
     [mainScrollView.mainContainerView.mainTextView resignFirstResponder];
 }
 
-- (void)setFont:(UIFont *)font
+- (void)setComposeFont:(UIFont *)font
 {
-    self.font = font;
     mainScrollView.mainContainerView.mainTextView.font = font;
 }
 
 - (void)setText:(NSString *)text
 {
-    self.text = text;
     mainScrollView.mainContainerView.mainTextView.text = text;
  
 }
-- (void)setTextColor:(UIColor *)textColor
+- (void)setComposeTextColor:(UIColor *)textColor
 {
-    self.textColor = textColor;
     mainScrollView.mainContainerView.mainTextView.textColor = textColor;
     
 }
-- (void)setBackgroundColor:(UIColor *)backgroundColor
+- (void)setComposeBackgroundColor:(UIColor *)backgroundColor
 {
-    self.backgroundColor = backgroundColor;
     mainScrollView.backgroundColor = backgroundColor;
     
 }
-- (void)setTextAlignment:(NSTextAlignment)textAlignment
+- (void)setComposeTextAlignment:(NSTextAlignment)textAlignment
 {
-    self.textAlignment = textAlignment;
     mainScrollView.mainContainerView.mainTextView.textAlignment = textAlignment;
 
 }
-- (void)setSelectedRange:(NSRange)selectedRange
+- (void)setComposeSelectedRange:(NSRange)selectedRange
 {
-    self.selectedRange = selectedRange;
     mainScrollView.mainContainerView.mainTextView.selectedRange = selectedRange;
     
 }
+- (void)setComposeInputView:(UIView *)inputView
+{
+     mainScrollView.mainContainerView.mainTextView.inputView = inputView;
+    
+}
+- (void)setComposeInputAccessoryView:(UIView *)inputAccessoryView
+{
+    mainScrollView.mainContainerView.mainTextView.inputAccessoryView = inputAccessoryView;
+    
+}
+-(void)setPlaceHolderText:(NSString *)placeholderLabelText
+{
+    mainScrollView.mainContainerView.placeholderLabelText = placeholderLabelText;
 
-- (UIFont *)getFont
+    
+}
+
+- (UIFont *)getComposeFont
 {
     return mainScrollView.mainContainerView.mainTextView.font;
 }
@@ -191,9 +206,37 @@
     return mainScrollView.mainContainerView.mainTextView.text;
 
 }
-
-
-
-
+- (UIColor *)getComposeTextColor
+{
+    return mainScrollView.mainContainerView.mainTextView.textColor;
+    
+}
+- (UIColor *)getComposeBackgroundColor
+{
+    return mainScrollView.backgroundColor;
+    
+}
+- (NSTextAlignment)setComposeTextAlignment
+{
+    return mainScrollView.mainContainerView.mainTextView.textAlignment;
+    
+}
+- (NSRange)getComposeSelectedRange
+{
+   return  mainScrollView.mainContainerView.mainTextView.selectedRange;
+    
+}
+- (UIView *)getComposeInputView
+{
+   
+   return mainScrollView.mainContainerView.mainTextView.inputView ;
+    
+}
+- (UIView *)getComposeInputAccessoryView
+{
+    
+    return mainScrollView.mainContainerView.mainTextView.inputAccessoryView ;
+    
+}
 
 @end

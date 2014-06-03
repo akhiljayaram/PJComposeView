@@ -17,4 +17,9 @@
 - (void)addFooterView:(UIView *)footerView;
 - (void)addComposingView:(UIView *)composingView;
 - (void)scrollToBottom;
+
+- (void) setUpSubViews;
+
 @end
+
+

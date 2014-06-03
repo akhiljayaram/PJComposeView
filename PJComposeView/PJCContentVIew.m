@@ -7,7 +7,7 @@
 //
 
 #import "PJCContentVIew.h"
-
+#define MIN_TEXT_VIEW_HEIGHT 50
 @implementation PJCContentVIew
 {
     
@@ -19,6 +19,7 @@
 
     if (self) {
         [self setUpSubViews];
+
     }
     return self;
 }
@@ -38,15 +39,31 @@
 
 - (void)setupTextviewContainerView
 {
-    CGRect frame = CGRectMake(0, 0, self.frame.size.width,20);
+    CGRect frame = CGRectMake(0, 0, self.frame.size.width,50);
     self.mainTextView = [[UITextView alloc]initWithFrame:frame];
     self.mainTextView.scrollEnabled = NO;
     self.mainTextView.delegate = self;
     [self.textViewContainerView addSubview:self.mainTextView];
+    
+    CGRect placeHolderFrame = CGRectMake(5, 5, self.frame.size.width-10,20);
+    self.placeholderLabel = [[UILabel alloc]initWithFrame:placeHolderFrame];
+    [self.textViewContainerView addSubview:self.placeholderLabel];
+    self.placeholderLabel.textColor = [UIColor grayColor];
+    self.placeholderLabel.font = [UIFont systemFontOfSize:14];
+
+    self.placeholderLabel.hidden = YES;
+
+    
     self.textViewContainerView.frame = frame;
 
 }
 
+-(void)setPlaceholderLabelText:(NSString *)placeholderLabelText
+{
+    self.placeholderLabel.text = placeholderLabelText;
+    [self updatePlaceHolderVisibility];
+
+}
 - (CGRect)rectWithHeight:(CGFloat)height belowFrame:(CGRect)rect inFrame:(CGRect)parentFrame
 {
     return CGRectMake(0, rect.origin.y+rect.size.height,parentFrame.size.width, height);
@@ -123,8 +140,12 @@
     CGRect textViewContainerViewFrame = self.textViewContainerView.frame;
     CGFloat heightDiff = textViewContainerViewFrame.size.height - textViewFrame.size.height;
     CGSize textViewSize = [self.mainTextView sizeThatFits:CGSizeMake(self.mainTextView.frame.size.width, FLT_MAX)];
+    if(textViewSize.height<MIN_TEXT_VIEW_HEIGHT)
+    {
+        textViewSize.height = MIN_TEXT_VIEW_HEIGHT;
+    }
+
     textViewFrame.size.height = textViewSize.height;
-   
     textViewContainerViewFrame.size.height = textViewSize.height+heightDiff;
     self.mainTextView.frame = textViewFrame;
     self.textViewContainerView.frame = textViewContainerViewFrame;
@@ -168,17 +189,26 @@
 }
 
 
-- (void)textViewDidChange:(UITextView *)textView
+- (void)updatePlaceHolderVisibility
 {
-    if([textView.text isEqualToString:@""])
+    if(self.placeholderLabel.text != nil && ![self.placeholderLabel.text isEqualToString:@""])
     {
-        self.placeholderLabel.hidden = NO;
-    }
-    else
-    {
-        self.placeholderLabel.hidden = YES;
+        if([self.mainTextView.text isEqualToString:@""])
+        {
+            self.placeholderLabel.hidden = NO;
+        }
+        else
+        {
+            self.placeholderLabel.hidden = YES;
+        }
     }
     
+}
+
+- (void)textViewDidChange:(UITextView *)textView
+{
+   
+    [self updatePlaceHolderVisibility];
     [self updateMainTextViewSize];
     [self.composeDelegate composeViewDidChange:textView];
 
