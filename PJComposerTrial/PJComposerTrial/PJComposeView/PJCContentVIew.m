@@ -215,7 +215,7 @@
     {
         return [self.composeDelegate composeView:textView shouldChangeTextInRange:range replacementText:text];
     }
-    return NO;
+    return YES;
 }
 
 
