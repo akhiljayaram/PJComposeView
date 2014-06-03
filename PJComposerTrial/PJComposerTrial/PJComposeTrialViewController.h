@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PJCComposeView.h"
+#import "PJComposeView.h"
 @interface PJComposeTrialViewController : UIViewController <PJCComposeDelegate>
 
-@property (strong, nonatomic) IBOutlet PJCComposeView *composeView;
+@property (strong, nonatomic) IBOutlet PJComposeView *composeView;
 @property (strong, nonatomic) IBOutlet UIView *headerView;
 @property (strong, nonatomic) IBOutlet UIView *footerView;
 @property (strong, nonatomic) IBOutlet UIView *textContainerView;

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "PJCScrollView.h"
-@interface PJCComposeView : UIView
+@interface PJComposeView : UIView
 
 
 @property (assign, nonatomic) id<PJCComposeDelegate> composeDelegate;

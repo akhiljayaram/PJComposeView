@@ -24,7 +24,7 @@
 		CEC1E7E3192B984400D5CC94 /* PJComposerTrialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1E7E2192B984400D5CC94 /* PJComposerTrialTests.m */; };
 		CEC1E7EF192B9A8200D5CC94 /* PJComposeTrialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1E7ED192B9A8200D5CC94 /* PJComposeTrialViewController.m */; };
 		CEC1E7F0192B9A8200D5CC94 /* PJComposeTrialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC1E7EE192B9A8200D5CC94 /* PJComposeTrialViewController.xib */; };
-		CEC1E7F3192B9AD200D5CC94 /* PJCComposeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1E7F2192B9AD200D5CC94 /* PJCComposeView.m */; };
+		CEC1E7F3192B9AD200D5CC94 /* PJComposeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1E7F2192B9AD200D5CC94 /* PJComposeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +63,8 @@
 		CEC1E7EC192B9A8200D5CC94 /* PJComposeTrialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJComposeTrialViewController.h; sourceTree = "<group>"; };
 		CEC1E7ED192B9A8200D5CC94 /* PJComposeTrialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJComposeTrialViewController.m; sourceTree = "<group>"; };
 		CEC1E7EE192B9A8200D5CC94 /* PJComposeTrialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PJComposeTrialViewController.xib; sourceTree = "<group>"; };
-		CEC1E7F1192B9AD200D5CC94 /* PJCComposeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJCComposeView.h; sourceTree = "<group>"; };
-		CEC1E7F2192B9AD200D5CC94 /* PJCComposeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJCComposeView.m; sourceTree = "<group>"; };
+		CEC1E7F1192B9AD200D5CC94 /* PJComposeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJComposeView.h; sourceTree = "<group>"; };
+		CEC1E7F2192B9AD200D5CC94 /* PJComposeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJComposeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +131,8 @@
 				CEC1E7EC192B9A8200D5CC94 /* PJComposeTrialViewController.h */,
 				CEC1E7ED192B9A8200D5CC94 /* PJComposeTrialViewController.m */,
 				CEC1E7EE192B9A8200D5CC94 /* PJComposeTrialViewController.xib */,
-				CEC1E7F1192B9AD200D5CC94 /* PJCComposeView.h */,
-				CEC1E7F2192B9AD200D5CC94 /* PJCComposeView.m */,
+				CEC1E7F1192B9AD200D5CC94 /* PJComposeView.h */,
+				CEC1E7F2192B9AD200D5CC94 /* PJComposeView.m */,
 				CEC17B23193309F6001B9F9A /* PJCScrollView.h */,
 				CEC17B24193309F6001B9F9A /* PJCScrollView.m */,
 				CEC17B2619330B10001B9F9A /* PJCContentVIew.h */,
@@ -270,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC1E7CE192B984400D5CC94 /* PJCAppDelegate.m in Sources */,
-				CEC1E7F3192B9AD200D5CC94 /* PJCComposeView.m in Sources */,
+				CEC1E7F3192B9AD200D5CC94 /* PJComposeView.m in Sources */,
 				CEC17B2C19332201001B9F9A /* PJCViewControllerttttt.m in Sources */,
 				CEC1E7CA192B984400D5CC94 /* main.m in Sources */,
 				CEC1E7EF192B9A8200D5CC94 /* PJComposeTrialViewController.m in Sources */,

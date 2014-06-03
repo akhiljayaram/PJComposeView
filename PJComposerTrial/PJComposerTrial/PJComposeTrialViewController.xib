@@ -18,7 +18,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" id="Z2J-26-xRO" customClass="PJCComposeView">
+                <view contentMode="scaleToFill" id="Z2J-26-xRO" customClass="PJComposeView">
                     <rect key="frame" x="0.0" y="104" width="320" height="444"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                 </view>

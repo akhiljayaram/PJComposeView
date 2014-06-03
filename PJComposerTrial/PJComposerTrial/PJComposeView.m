@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 akhiljayaram. All rights reserved.
 //
 
-#import "PJCComposeView.h"
+#import "PJComposeView.h"
 
-@implementation PJCComposeView
+@implementation PJComposeView
 {
     CGFloat keyBoardIntrudingHeight;
     CGFloat keyBoardHeight;
