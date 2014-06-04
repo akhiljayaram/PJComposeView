@@ -147,6 +147,7 @@
 - (void)resignFirstResponder
 {
     [mainScrollView.mainContainerView.mainTextView resignFirstResponder];
+    [mainScrollView.mainContainerView.placeholderLabel becomeFirstResponder];
 }
 
 - (void)setComposeFont:(UIFont *)font
@@ -166,7 +167,7 @@
 }
 - (void)setComposeBackgroundColor:(UIColor *)backgroundColor
 {
-    mainScrollView.backgroundColor = backgroundColor;
+    mainScrollView.mainContainerView.mainTextView.backgroundColor = backgroundColor;
     
 }
 - (void)setComposeTextAlignment:(NSTextAlignment)textAlignment
