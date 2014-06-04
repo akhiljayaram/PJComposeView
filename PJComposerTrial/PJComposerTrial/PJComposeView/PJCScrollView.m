@@ -58,7 +58,8 @@
 - (void)textViewCursorPositionChanged:(CGFloat)cursorPosition
 {
     CGFloat differenceInCursorHeight = cursorPosition  - self.frame.size.height;
-    
+    NSLog(@"origin=========%f",differenceInCursorHeight);
+
     if(differenceInCursorHeight>0 && (differenceInCursorHeight != INFINITY))
     {
         self.contentOffset = CGPointMake(0, differenceInCursorHeight);

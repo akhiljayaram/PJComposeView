@@ -15,7 +15,6 @@
 @property (strong, nonatomic) IBOutlet UIView *footerView;
 @property (strong, nonatomic) IBOutlet UIView *textContainerView;
 
-- (IBAction)onTappedinView:(id)sender;
 
 
 @end

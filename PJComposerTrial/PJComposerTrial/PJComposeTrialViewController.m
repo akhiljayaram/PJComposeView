@@ -31,7 +31,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.composeView.composeDelegate = self;
+    [self.composeView addHeaderView:self.headerView];
+    [self.composeView addFooterView:self.footerView];
+    [self.composeView setPlaceHolderText:@"Please Add Text Here"];
+    [self.composeView setComposeBackgroundColor:[UIColor yellowColor]];
+
+
 }
 
 
@@ -45,9 +51,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    self.composeView.composeDelegate = self;
-    [self.composeView addHeaderView:self.headerView];
-    [self.composeView addFooterView:self.footerView];
+    
 
 }
 
@@ -66,19 +70,18 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-- (IBAction)onTappedinView:(id)sender {
+- (IBAction)onTappedInView:(id)sender {
     [self.composeView resignFirstResponder];
+
 }
+
+
+
+
+
+
+
+
+
+
 @end

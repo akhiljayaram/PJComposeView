@@ -234,7 +234,7 @@
     {
         return [self.composeDelegate composeViewShouldEndEditing:textView];
     }
-    return NO;
+    return YES;
 
 }
 
